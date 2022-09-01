@@ -48,7 +48,7 @@ void DisaplayMenu(){
 }
 void CheckRightTraingle(vector<float> &v){
     if(v[0] == v[1] == v[2] == 0){
-        cout<<"All the given points conincide"<<endl;
+        cout<<"All the given points coincide"<<endl;
         return;
     }
     if(v[0] == v[1] == 0){
