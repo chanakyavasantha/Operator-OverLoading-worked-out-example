@@ -47,7 +47,7 @@ void DisaplayMenu(){
     cout<<"enter 5 to exit : "<<endl;
 }
 void CheckRightTraingle(vector<float> &v){
-    if(v[2] == v[1]+v[0] && v[2] < v[1]+v[0] && v[1] < v[2]+v[0] && v[2] > v[1]){
+    if(v[2] == v[1]+v[0] && v[2] > v[1]){
         cout<<"Yes,the given points form a right triangle"<<endl;
     }
     else{
